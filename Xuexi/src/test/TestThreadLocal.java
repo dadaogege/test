@@ -17,7 +17,7 @@ public class TestThreadLocal implements Runnable {
   
     public static void main(String[] args) {  
         TestThreadLocal t = new TestThreadLocal();  
-        new Thread(t, "t1").start();  
+        new Thread(t, "t11").start();  
         new Thread(t, "t2").start();  
     }  
   
